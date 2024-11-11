@@ -9,3 +9,9 @@ public class Producto
     public int PorcentajeImpuesto { get; set; }
 
 }
+
+var banana = new Producto
+{
+    Id = 456,
+    Nombre = "Banana"
+};

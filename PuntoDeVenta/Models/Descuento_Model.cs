@@ -1,14 +1,14 @@
-public class Descuento 
+public class Impuesto
 {
     public Producto Producto { get; set; }
 
     public decimal CalcularDescuento()
     {
-        decimal descuento = 0;
+        decimal impuesto = 0;
         foreach (DetalleVenta dv in DetallesVenta)
         {
-            descuento += dv.Subtotal *(Producto.PorcentajeDescuento / 100);
+            impuesto += dv.Subtotal *(Producto.PorcentajeImpuesto / 100);
         }
-        return descuento;
+        return impuesto;
     }
 }
