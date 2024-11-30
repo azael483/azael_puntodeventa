@@ -5,13 +5,6 @@ public class Producto
     public string Descripcion { get; set; }
     public decimal Precio { get; set; }
     public int Stock { get; set; }
-    public int PorcentajeDescuento { get; set; }
-    public int PorcentajeImpuesto { get; set; }
-
+    public Impuesto impuesto { get; set; }
 }
 
-var banana = new Producto
-{
-    Id = 456,
-    Nombre = "Banana"
-};
