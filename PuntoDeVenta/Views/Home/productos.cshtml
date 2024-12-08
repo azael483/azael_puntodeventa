@@ -1,8 +1,39 @@
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Productos";
 }
 <h1>@ViewData["Title"]</h1>
 
+<head>
+    <style>
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
+        .image-item {
+            width: 25%;
+            padding: 10px;
+        }
+    </style>
+</head>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<body>
+    <div class="image-grid">
+    <div class="image-item">
+        <a href="https://example.com/aceite"> <img src="images/aceite.png" alt="aceite">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="https://example.com/jabon"> <img src="images/jabon.png" alt="jabon">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="https://example.com/lechuga"> <img src="images/lechuga.png" alt="lechuga">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="https://example.com/tomate"> <img src="images/tomate.png" alt="tomate">
+        </a>
+    </div>
+</div>
+</body>
