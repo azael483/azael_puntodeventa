@@ -3,4 +3,37 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<head>
+    <style>
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image-item {
+            width: 25%;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-grid">
+    <div class="image-item">
+        <a href="https://example.com/aceite"> <img src="images/aceite.jpg" alt="aceite">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="https://example.com/jabon"> <img src="images/jabon.jpg" alt="jabon">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="https://example.com/lechuga"> <img src="images/lechuga.jpg" alt="lechuga">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="https://example.com/tomate"> <img src="images/tomate.jpg" alt="tomate">
+        </a>
+    </div>
+</div>
+</body>
