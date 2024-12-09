@@ -6,34 +6,230 @@
 <head>
     <style>
         .image-grid {
+            width: 80%;
             display: flex;
             flex-wrap: wrap;
         }
 
         .image-item {
-            width: 25%;
-            padding: 10px;
+            width: 20%;
+            padding: 5px;
+            height: 160px;
         }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border: 2px solid black;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .image-item:hover img {
+            border-color: #007bff;
+            transform: scale(1.05);
+        }
+
+        .sidebar {
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 20%;
+            background-color: #f8f9fa;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #comprarBtn {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
     </style>
 </head>
 
 <body>
+    <div class="toast" id="toast">Producto añadido al carrito</div>
     <div class="image-grid">
-    <div class="image-item">
-        <a href="https://example.com/aceite"> <img src="images/aceite.png" alt="aceite">
-        </a>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="1hh8qw80qw" data-nombre="Aceite" data-precio="30.50">
+                <img src="~/images/aceite.png" alt="aceite">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="2uh23rhh2i" data-nombre="Jabón" data-precio="9.99">
+                <img src="~/images/jabon.png" alt="jabon">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="3e93nde9wa" data-nombre="Lechuga" data-precio="27.50">
+                <img src="~/images/lechuga.png" alt="Lechuga">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="4I932j3Ko1" data-nombre="Tomate" data-precio="19.99">
+                <img src="~/images/tomate.png" alt="tomate">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="J3fB9rL8s2" data-nombre="Pescado" data-precio="33.50">
+                <img src="~/images/pescado.png" alt="pescado">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="M1aV7gT0dX" data-nombre="Huevo" data-precio="39.99">
+                <img src="~/images/huevo.png" alt="huevo">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="P5uQ8zA6hE" data-nombre="Leche" data-precio="24.50">
+                <img src="~/images/leche.png" alt="leche">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="9DqZ2pY4rT" data-nombre="Manzana" data-precio="14.99">
+                <img src="~/images/manzana.png" alt="manzana">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="S7mL0oK3vC" data-nombre="Pepino" data-precio="23.50">
+                <img src="~/images/pepino.png" alt="pepino">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="E4wF9dH2nR" data-nombre="CocaCola" data-precio="27.50">
+                <img src="~/images/coca.png" alt="coca">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="L8pN3gV1xQ" data-nombre="Cereal" data-precio="44.50">
+                <img src="~/images/cereal.png" alt="cereal">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="Z2sR5vB0wY" data-nombre="Azucar" data-precio="19.99">
+                <img src="~/images/azucar.png" alt="azucar">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="A6uC9kX3eD" data-nombre="Carne de res" data-precio="37.50">
+                <img src="~/images/carne de res.png" alt="carne de res">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="T3rV0mJ7hB" data-nombre="Espagueti" data-precio="22.99">
+                <img src="~/images/espagueti.png" alt="espagueti">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="K9nF4pY2zX" data-nombre="Queso" data-precio="27.50">
+                <img src="~/images/queso.png" alt="queso">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="C5wQ8vJ0tL" data-nombre="Mantequilla" data-precio="12.50">
+                <img src="~/images/mantequilla.png" alt="mantequilla">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="R1kM3zB7pE" data-nombre="Cafe" data-precio="49.99">
+                <img src="~/images/cafe.png" alt="cafe">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="H6gV2sN9yC" data-nombre="Barra de pan" data-precio="24.99">
+                <img src="~/images/barra de pan.png" alt="barra de pan">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="O4uD7tL1vS" data-nombre="Pollo" data-precio="44.99">
+                <img src="~/images/pollo.png" alt="pollo">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="#" class="producto" data-id="W8qB0zF3nY" data-nombre="Platano" data-precio="19.99">
+                <img src="~/images/platano.png" alt="platano">
+            </a>
+        </div>
     </div>
-    <div class="image-item">
-        <a href="https://example.com/jabon"> <img src="images/jabon.png" alt="jabon">
-        </a>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 sidebar">
+                <h2>Tu Carrito</h2>
+                <ul id="carrito" class="list-group"></ul>
+                <p>Total: $<span id="total">0.00</span></p>
+                <button id="comprarBtn" class="btn btn-success btn-block">Comprar</button>
+            </div>  
+        </div>
     </div>
-    <div class="image-item">
-        <a href="https://example.com/lechuga"> <img src="images/lechuga.png" alt="lechuga">
-        </a>
-    </div>
-    <div class="image-item">
-        <a href="https://example.com/tomate"> <img src="images/tomate.png" alt="tomate">
-        </a>
-    </div>
-</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/renderCarrito.js"></script>
+    <script>
+        $(document).ready(function () {
+            renderCarrito(); // Llamar a renderCarrito al cargar la página
+        });
+
+        $(document).ready(function() {
+            // Detectar el clic en la imagen (el enlace contiene la imagen)
+            $('.producto').on('click', function(e) {
+                e.preventDefault(); // Evitar que el enlace navegue a otra página
+
+                // Obtener los datos del producto desde los atributos data-* del enlace
+                const producto = {
+                    Id: $(this).data('id'),           // Obtener el ID del producto
+                    Nombre: $(this).data('nombre'),   // Obtener el nombre del producto
+                    Precio: parseFloat($(this).data('precio')) // Obtener el precio y convertirlo a número
+                };
+                
+                // Llamar a la función para agregar el producto al carrito
+                agregarAlCarrito(producto);
+            });
+        });
+
+        function mostrarToast(mensaje) {
+            const toast = $('<div class="toast">' + mensaje + '</div>');
+            $('body').append(toast);
+            toast.fadeIn(300);
+            setTimeout(() => {
+                toast.fadeOut(300, () => {
+                    toast.remove(); 
+                });
+            }, 2000);
+        }
+
+        $(document).ready(function() {
+            // Detectar el clic en el botón de comprar
+            $('#comprarBtn').on('click', function() {
+                const carrito = obtenerCarrito(); // Obtener los productos del carrito
+                if (carrito.length === 0) {
+                    alert('Tu carrito está vacío.');
+                } else {
+                    // Aquí puedes agregar lógica para realizar la compra, como vaciar el carrito, mostrar un mensaje, etc.
+                    alert('Gracias por tu compra!');
+                    
+                    // Vaciar el carrito
+                    localStorage.removeItem('carrito'); // Eliminar carrito de localStorage
+                    renderCarrito(); // Volver a renderizar el carrito (vacío)
+                }
+            });
+        });
+
+    </script>
+
 </body>

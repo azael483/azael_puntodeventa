@@ -13,6 +13,130 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\aceite.png",
+      "PackagePath": "staticwebassets\\images\\aceite.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\azucar.png",
+      "PackagePath": "staticwebassets\\images\\azucar.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\barra de pan.png",
+      "PackagePath": "staticwebassets\\images\\barra de pan.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\botella de agua.png",
+      "PackagePath": "staticwebassets\\images\\botella de agua.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\cafe.png",
+      "PackagePath": "staticwebassets\\images\\cafe.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\carne de res.png",
+      "PackagePath": "staticwebassets\\images\\carne de res.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\cereal.png",
+      "PackagePath": "staticwebassets\\images\\cereal.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\coca.png",
+      "PackagePath": "staticwebassets\\images\\coca.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\crema.png",
+      "PackagePath": "staticwebassets\\images\\crema.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\espagueti.png",
+      "PackagePath": "staticwebassets\\images\\espagueti.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\esponja.png",
+      "PackagePath": "staticwebassets\\images\\esponja.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\harina.png",
+      "PackagePath": "staticwebassets\\images\\harina.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\huevo.png",
+      "PackagePath": "staticwebassets\\images\\huevo.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\jabon.png",
+      "PackagePath": "staticwebassets\\images\\jabon.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\lata de atun.png",
+      "PackagePath": "staticwebassets\\images\\lata de atun.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\leche.png",
+      "PackagePath": "staticwebassets\\images\\leche.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\lechuga.png",
+      "PackagePath": "staticwebassets\\images\\lechuga.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\mantequilla.png",
+      "PackagePath": "staticwebassets\\images\\mantequilla.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\manzana.png",
+      "PackagePath": "staticwebassets\\images\\manzana.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\pepino.png",
+      "PackagePath": "staticwebassets\\images\\pepino.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\pescado.png",
+      "PackagePath": "staticwebassets\\images\\pescado.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\platano.png",
+      "PackagePath": "staticwebassets\\images\\platano.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\pollo.png",
+      "PackagePath": "staticwebassets\\images\\pollo.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\queso.png",
+      "PackagePath": "staticwebassets\\images\\queso.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\shampoo.png",
+      "PackagePath": "staticwebassets\\images\\shampoo.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\te.png",
+      "PackagePath": "staticwebassets\\images\\te.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\tomate.png",
+      "PackagePath": "staticwebassets\\images\\tomate.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\images\\yogurt.png",
+      "PackagePath": "staticwebassets\\images\\yogurt.png"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\ListaProductos.js",
+      "PackagePath": "staticwebassets\\js\\ListaProductos.js"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\carrito.js",
+      "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\renderCarrito.js",
+      "PackagePath": "staticwebassets\\js\\renderCarrito.js"
+    },
+    {
       "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
