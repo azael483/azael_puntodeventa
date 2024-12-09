@@ -125,6 +125,18 @@
       "PackagePath": "staticwebassets\\images\\yogurt.png"
     },
     {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\ListaProductos.js",
+      "PackagePath": "staticwebassets\\js\\ListaProductos.js"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\carrito.js",
+      "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
+      "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\renderCarrito.js",
+      "PackagePath": "staticwebassets\\js\\renderCarrito.js"
+    },
+    {
       "Id": "C:\\Users\\azael\\OneDrive\\Documentos\\GitHub\\azael_puntodeventa\\PuntoDeVenta\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
